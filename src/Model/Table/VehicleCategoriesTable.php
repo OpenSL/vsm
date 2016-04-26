@@ -27,7 +27,7 @@ class VehicleCategoriesTable extends Table
         parent::initialize($config);
 
         $this->table('vehicle_categories');
-        $this->displayField('id');
+        $this->displayField('type');
         $this->primaryKey('id');
 
         $this->addBehavior('Timestamp');
